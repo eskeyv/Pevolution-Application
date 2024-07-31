@@ -96,7 +96,7 @@ int main() {
         }
 
         try {
-            http_client client(U("https://byte.goatbypassers.xyz"));
+            http_client client(U("Your API Link"));
             uri_builder builder(U("/api/bypass"));
             builder.append_query(U("link"), conversions::to_string_t(link));
 
